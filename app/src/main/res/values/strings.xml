@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Project3</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="parked_location">I\'m at this location</string>
+    <string name="location_finder">Search Locations</string>
+    <string name="search_text">Click to Search</string>
+    <string name="result_count_text1">Search Result Count:</string>
+    <string name="result_count_text2">Search Result Count</string>
 </resources>

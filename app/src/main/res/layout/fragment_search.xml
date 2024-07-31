@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_height="match_parent"
+    tools:context=".SearchFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <EditText
+        android:id="@+id/search_location"
+        android:layout_width="261dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="@string/location_finder"
+        android:inputType="text"
+        android:paddingTop="20dp"
+        android:paddingBottom="25dp"
+        android:textColor="@color/indigo"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/search_text"
+        />
+
+
+</LinearLayout>
